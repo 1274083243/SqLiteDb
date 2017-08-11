@@ -1,0 +1,14 @@
+#发布arr到github gradlew uploadArchives
+
+#1，修改app gradle文件为apply plugin: 'com.android.library'
+#2，在App同级的目录建立建立maven-release-aar.gradle文件
+#3，生成arr包命令 gradlew uploadArchives
+#arr的引用
+#allprojects {
+#    repositories {
+#        jcenter()
+#        maven { url "https://github.com/dataBaseAAR/ike_library/raw/master"}填写你的项目地址/raw/master加到github地址后面
+#    }
+#
+#}
+
